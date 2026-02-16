@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+
+# Data and Outputs
+data/
+*.txt
+*.csv
+*.tiff
+*.png
+*.jpg
+
+# OS Files
+.DS_Store
+Thumbs.db
