@@ -25,8 +25,12 @@ Unlike basic plotting scripts, this tool implements advanced signal processing a
    python raman_processing.py
 3. The script will output a stacked TIFF figure with calculated metrics in the legend.
 
-**Mathematical Context**
-The baseline correction minimizes the following cost function:$$ S = \sum_i w_i (y_i - z_i)^2 + \lambda \sum_i (\Delta^2 z_i)^2 $$Where $y$ is the signal, $z$ is the baseline, $\lambda$ controls smoothness, and $w_i$ assigns asymmetric weights to ignore positive peaks while fitting the underlying background.
+## Mathematical Context
+The baseline correction minimizes the following cost function:
+$$ S = \sum_i w_i (y_i - z_i)^2 + \lambda \sum_i (\Delta^2 z_i)^2 $$.
+Where $y$ is the signal, $z$ is the baseline, $\lambda$ controls smoothness, and $w_i$ assigns asymmetric weights to ignore positive peaks while fitting the underlying background.
 
-**Author**
-
+## Author
+**Felipe Longaray Kadel**
+*Materials Engineering Undergraduate - UFRGS*
+* felipe.longaray@ufrgs.br
